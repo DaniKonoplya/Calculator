@@ -14,7 +14,6 @@ def evaluateExpression(expression):
     d = deque()
     str_digits = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9'}
     signs = {'+', '-', '*', '/'}
-    parenthesis = {'(', ')'}
     float_num = False
 
     if expression[0] in str_digits:
